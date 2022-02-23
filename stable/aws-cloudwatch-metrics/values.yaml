@@ -19,6 +19,12 @@ serviceAccount:
 
 hostNetwork: false
 
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
+
 statsd:
   enabled: false
   port: 8125
