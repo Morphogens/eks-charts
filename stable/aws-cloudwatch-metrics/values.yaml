@@ -26,6 +26,6 @@ tolerations: []
 affinity: {}
 
 statsd:
-  enabled: false
+  enabled: true
   port: 8125
   protocol: UDP
